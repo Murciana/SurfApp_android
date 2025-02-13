@@ -9,7 +9,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
     private val BASE_URL = "http://10.0.2.2:9000"
-    private val API_KEY = "patoZZQTPZuUHlyhT.5ff0a6d6b070fd2d8412b974614cd2f5695adc57e971d212f61d8e3282126025"
+    private val API_KEY = myApiKey
 
     private val client = OkHttpClient.Builder()
         .addInterceptor { chain ->
