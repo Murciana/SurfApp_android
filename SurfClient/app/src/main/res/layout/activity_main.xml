@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    tools:context=".SpotForm">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+<com.google.android.material.textfield.TextInputEditText
+    android:id="@+id/form_textFieldDestination"
+    android:hint="@string/form_destination"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_height="wrap_content"/>
+
+<com.google.android.material.textfield.TextInputEditText
+    android:id="@+id/form_textFieldAddress"
+    android:hint="@string/form_address"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_height="wrap_content"/>
+
+<com.google.android.material.textfield.TextInputEditText
+    android:id="@+id/form_textFieldDifficultyLevel"
+    android:hint="@string/form_difficulty_level"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_height="wrap_content"/>
+
+<com.google.android.material.textfield.TextInputEditText
+    android:id="@+id/form_textFieldPhotoUrl"
+    android:hint="@string/form_photo_url"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_height="wrap_content"/>
+
+<com.google.android.material.textfield.TextInputEditText
+    android:id="@+id/form_textFieldSurfBreak"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_height="wrap_content"
+    android:hint="@string/form_surf_break" />
+</LinearLayout>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/form_buttonSave"
+        android:layout_alignParentBottom="true"
+        android:minHeight="60dp"
+        android:text="@string/button_add_spot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

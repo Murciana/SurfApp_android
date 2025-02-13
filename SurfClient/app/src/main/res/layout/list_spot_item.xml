@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/spotListItem_destination"
+        android:text="Destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spotListItem_destination"
+        android:id="@+id/spotListItem_address"
+        android:text="Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@+id/spotListItem_address"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/spotListItem_difficulty_level"
+        android:text="Difficulty Level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:textSize="16sp"/>
+    <TextView
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/spotListItem_photo_url"
+        android:text="Photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/spotListItem_difficulty_level"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/spotListItem_surf_break"
+        android:text="Surf Break"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:textSize="16sp"
+        android:paddingBottom="20dp"/>
+
+
+    <View
+        app:layout_constraintTop_toBottomOf="@+id/spotListItem_surf_break"
+        android:background="#C2C2C2"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

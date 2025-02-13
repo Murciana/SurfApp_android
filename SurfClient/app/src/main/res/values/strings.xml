@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SurfClient</string>
+    <string name="form_destination">Destination</string>
+    <string name="form_address">Address</string>
+    <string name="form_difficulty_level">Difficulty level</string>
+    <string name="form_photo_url">Photo</string>
+    <string name="form_surf_break">Surf break</string>
+    <string name="button_add_spot">ADD A SPOT</string>
+
+</resources>
